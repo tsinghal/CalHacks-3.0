@@ -3,6 +3,7 @@ package com.example.tushar.tagalong;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.media.Image;
 import android.net.Uri;
 import android.os.Build;
 import android.support.v7.app.ActionBar;
@@ -18,12 +19,14 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Spinner;
 
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.api.GoogleApiClient;
+import com.squareup.picasso.Picasso;
 
 public class PhysicalActivity extends AppCompatActivity {
 
@@ -78,6 +81,14 @@ public class PhysicalActivity extends AppCompatActivity {
                 alertDialog.show();
             }
         });
+
+        ImageView img = (ImageView)findViewById(R.id.img1);
+        Picasso.with(this).load("http://vecto.rs/1024/vector-of-a-cartoon-happy-man-jogging-outlined-coloring-page-by-ron-leishman-19052.jpg")
+                .into(img);
+
+        ImageView img2 = (ImageView)findViewById(R.id.img2);
+        Picasso.with(this).load("http://worldartsme.com/images/cartoon-workout-clipart-1.jpg ")
+                .into(img2);
     }
 
     @Override
