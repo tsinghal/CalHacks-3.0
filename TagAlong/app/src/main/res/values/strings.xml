@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TagAlong</string>
+    <string name="title_activity_signup">SignupActivity</string>
+
+    <string name="slide_1_title">Physical Exercise</string>
+    <string name="slide_1_desc">Come walk, jog, workout or do your favorite activity!</string>
+
+    <string name="slide_2_title">Homework</string>
+    <string name="slide_2_desc">Build amazing projects or complete classwork!</string>
+
+    <string name="slide_3_title">Shopping</string>
+    <string name="slide_3_desc">Easy to shop groceries, clothing or anything you like with amazing company!</string>
+
+    <string name="slide_4_title">Weekenders</string>
+    <string name="slide_4_desc">Lets go dine, party or dance at a nearby club!</string>
+
+    <string name="slide_5_title">Entertainment</string>
+    <string name="slide_5_desc">Laugh at comedy, watch awesome movies or dance at concerts!</string>
+
+
+    <string-array name="type_array">
+            <item>Jogging</item>
+            <item>WorkOut</item>
+            <item>Ping Pong</item>
+            <item>Football</item>
+            <item>Baseball</item>
+    </string-array>
+
+    <string-array name="location_array">
+        <item>Lyon Centre</item>
+        <item>Track Field</item>
+        <item>Lorenzo</item>
+        <item>Gateway Gym</item>
+    </string-array>
+
+    <string-array name="time_array">
+        <item>00:00</item>
+        <item>01:00</item>
+        <item>02:00</item>
+        <item>03:00</item>
+        <item>04:00</item>
+        <item>05:00</item>
+        <item>06:00</item>
+        <item>07:00</item>
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+    </string-array>
+
+</resources>

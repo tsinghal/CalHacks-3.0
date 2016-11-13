@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.tushar.tagalong.HomeActivity">
+
+    <TextView
+        android:text="What would you like to do today?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/askText"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textAlignment="center"
+        android:layout_below="@+id/welcomeText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Hey, welcome! "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/welcomeText"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <view
+        android:layout_width="match_parent"
+        class="android.support.v4.view.ViewPager"
+        android:id="@+id/slidingView"
+        android:layout_height="360dp"
+        android:layout_below="@+id/askText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp" />
+
+    <LinearLayout
+        android:id="@+id/layoutDots"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="30dp"
+        android:layout_below="@+id/slidingView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </LinearLayout>
+
+
+</RelativeLayout>
